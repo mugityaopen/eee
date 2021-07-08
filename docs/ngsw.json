@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1625705064192,
+  "index": "/LocationTransmission/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/LocationTransmission/favicon.ico",
+        "/LocationTransmission/index.html",
+        "/LocationTransmission/main.08267ab40e564bfb569a.js",
+        "/LocationTransmission/manifest.webmanifest",
+        "/LocationTransmission/polyfills.98e298f0f2b8e2646bce.js",
+        "/LocationTransmission/runtime.24d74129d9aa50629ccd.js",
+        "/LocationTransmission/styles.787a40831f900fe643f6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/LocationTransmission/assets/icons/icon-128x128.png",
+        "/LocationTransmission/assets/icons/icon-144x144.png",
+        "/LocationTransmission/assets/icons/icon-152x152.png",
+        "/LocationTransmission/assets/icons/icon-192x192.png",
+        "/LocationTransmission/assets/icons/icon-384x384.png",
+        "/LocationTransmission/assets/icons/icon-512x512.png",
+        "/LocationTransmission/assets/icons/icon-72x72.png",
+        "/LocationTransmission/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/LocationTransmission/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/LocationTransmission/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/LocationTransmission/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/LocationTransmission/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/LocationTransmission/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/LocationTransmission/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/LocationTransmission/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/LocationTransmission/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/LocationTransmission/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/LocationTransmission/index.html": "4b317271b1054ca6c1d90decdf2ac16545765e3b",
+    "/LocationTransmission/main.08267ab40e564bfb569a.js": "6ad1b76b15b5786b78e792a36bff788b91b53494",
+    "/LocationTransmission/manifest.webmanifest": "2cb9395ec5b12ee924ac50b06a3050df79ecc509",
+    "/LocationTransmission/polyfills.98e298f0f2b8e2646bce.js": "ba0de278e37510122ae2db8136780b46b4f5de1c",
+    "/LocationTransmission/runtime.24d74129d9aa50629ccd.js": "45ae2e960c00df85972fca8413e4cd70537331f7",
+    "/LocationTransmission/styles.787a40831f900fe643f6.css": "d63c2b8b673f591efe96714c2bbf78e3dfd62eab"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
